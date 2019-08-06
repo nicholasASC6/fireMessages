@@ -9,7 +9,28 @@
 
     <!--Go to https://console.firebase.google.com-->
     <!--Sign in and add a project "fireMessage"-->
-    <!--PASTE SNIPPET HERE-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAFQj0tigDIxAdRNumbNwFvEbr-qcQA9Y0",
+    authDomain: "firemessages-3a97a.firebaseapp.com",
+    databaseURL: "https://firemessages-3a97a.firebaseio.com",
+    projectId: "firemessages-3a97a",
+    storageBucket: "",
+    messagingSenderId: "537473101039",
+    appId: "1:537473101039:web:84759848f6f34144"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
 
 
 
@@ -20,7 +41,7 @@
 <body>
 
     <!--Add your name-->
-    <h1>Bob's Messaging App</h1>
+    <h1>Messages</h1>
 
     <!--This div will be populated with messages-->
     <div class="allMessages">
