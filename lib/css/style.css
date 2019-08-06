@@ -137,3 +137,9 @@ form {
     outline-width: 2px;
     outline-color: var(--primarydark);
 }
+
+@media(max-width:1024px){
+    html{
+        width: 1024px;
+    }
+}
